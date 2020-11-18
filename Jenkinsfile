@@ -13,7 +13,7 @@ pipeline {
 
           openshift.withCluster() {
 
-	    openshift.newApp( 'https://github.com/mguazzardo/newphp' ).narrow('bc')
+	    openshift.newApp( 'https://github.com/mguazzardo/hello-php' ).narrow('bc')
           }
 
         }
